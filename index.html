@@ -1,39 +1,64 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      <title>Portal for QA</title>
-      <link rel="stylesheet" type="text/css" href="css/style.css">
-      <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-      <link rel="shortcut icon" href="img/fav.ico" type="image/x-icon">
-      <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-   </head>
-   <body>
-      <!--Card-->
-      <div class="card animated fadeIn">
-         <center><img class="center animated rollIn" src="img/ava.png" alt="avatar"></center>
-         <hr>
-         <div class="name">
-            Основныые Интрументы
-         </div>
-         <p class="subtitle">Тетирование WEB-приложений</p>
-         </p>
-         <p class="location" align="center">
-            <a href="html/cmd.html">Командная строка Windos</a>
-         </p>
-         <p class="location" align="center">
+<html lang="ru">
+<head>
+    <title>Portal for QA</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="icon" href="img/fav.ico" type="image/x-icon"> <!-- Фавикон -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        /* Добавление стилей для центрации текста */
+        .center {
+            text-align: center; /* Выравнивание по центру */
+        }
+        .card {
+            max-width: 400px; /* Ограничение ширины карточки */
+            margin: 20px auto; /* Центрирование карточки */
+            padding: 20px; /* Отступы внутри карточки */
+            border: 1px solid #ccc; /* Граница карточки */
+            border-radius: 10px; /* Закругленные углы */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тень для карточки */
+            background-color: rgba(255, 255, 255, 0.959); /* Полупрозрачный белый фон для карточки */
+        }
+        .name {
+            color: gray; /* Цвет текста "Основные Инструменты" установлен на серый */
+        }
+        footer {
+            text-align: center; /* Центрирование текста в подвале */
+            margin-top: 20px; /* Отступ сверху */
+        }
+    </style>
+</head>
+<body>
+    <!--Card-->
+    <div class="card animated fadeIn">
+        <div class="center">
+            <img class="center animated rollIn" src="img/ava.png" alt="avatar"> 
+        </div>
+        <hr>
+        <div class="name center">
+            Основные Инструменты <!-- Исправлена опечатка -->
+        </div>
+        <p class="subtitle center">Тестирование WEB-приложений</p> <!-- Исправлена опечатка -->
+        
+        <p class="location center">
+            <a href="html/cmd.html">Командная строка Windows</a> <!-- Исправлена опечатка -->
+        </p>
+        <p class="location center">
             <a href="html/mac.html">Терминал MacOS</a>
-         </p>
-          <p class="location" align="center">
+        </p>
+        <p class="location center">
             <a href="html/git.html">Git</a>
-         </p>
-         <p> <br>
-         </p>
-      </div>
-      <!--footer-->
-      <footer class="animated fadeIn">
-         &copy; 202 4. SkyPro
-      </footer>
-   </body>
+        </p>
+        
+        <p><br></p> <!-- Удален лишний пробел -->
+    </div>
+    
+    <!--footer-->
+    <footer class="animated fadeIn">
+        &copy; 2024 SkyPro <!-- Исправлена ошибка в годе -->
+    </footer>
+</body>
 </html>
